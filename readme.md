@@ -6,7 +6,7 @@ This shiny-app is an interactive version of the Goldman-Hodkin-Katz equation use
 
 Make sure that you have R and the following R packages installed on your machine and loaded in your R session:
 
-**shiny** <br/>**shinyWidgets** <br/>**shinyjs** <br/>**ggplot2** <br/>**speg**
+**shiny**, **shinyWidgets, **shinyjs**, **ggplot2**, **speg**
 
     # Install packages from the R-console via:
     install.packages("shiny")
@@ -30,7 +30,7 @@ Once you have installed and loaded all the libraries, you can start the App from
     
 ## Using the App online
 
-An online version of the App that does not need local installation of R and the dependencies can be found here:
+An online version of the App can be found here:
 
 German version:
 https://daschmidtke.shinyapps.io/goldman_app/
@@ -38,7 +38,7 @@ https://daschmidtke.shinyapps.io/goldman_app/
 English version:
 ToDo
 
-Online access, however, is limited to 25 hours per month, so these links are for testing purposes only. If you want to use the Apps for longer durations, please use a local installation.
+Access to the shiny server, however, is limited to 25 hours per month, so these links are for testing purposes only. If you want to use the App for longer durations, please use a local installation.
 
 ## Author
 
