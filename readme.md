@@ -6,7 +6,7 @@ This shiny-app is an interactive version of the Goldman-Hodkin-Katz equation use
 
 Make sure that you have R and the following R packages installed on your machine and loaded in your R session:
 
-**shiny**, **shinyWidgets**, **shinyjs**, **ggplot2**, **speg**
+**shiny**, **shinyWidgets**, **shinyjs**, **ggplot2**, **jpeg**
 
     # Install packages from the R-console via:
     install.packages("shiny")
