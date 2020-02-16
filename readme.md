@@ -8,14 +8,14 @@ Make sure that you have R and the following R packages installed on your machine
 
 **shiny**, **shinyWidgets**, **shinyjs**, **ggplot2**, **jpeg**
 
-    # Install packages from the R-console via:
+    # Install packages from the R console via:
     install.packages("shiny")
     install.packages("shinyWidgets")
     install.packages("shinyjs")
     install.packages("ggplot2")
     install.packages("jpeg")
     
-    # Load packages from the R-console via:
+    # Load packages from the R console via:
     library(shiny)
     library(shinyWidgets)
     library(shinyjs)
