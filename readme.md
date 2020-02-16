@@ -16,8 +16,8 @@ Make sure that you have the following R libraries installed on your machine and 
     library(shinyWidgets)
     library(shinyjs)
     library(ggplot2)
-    library(jpeg)test
-
+    library(jpeg)
+    
 ## Start the App
 
 Once you have installed and loaded all the libraries, you can start the App from the command line using:
