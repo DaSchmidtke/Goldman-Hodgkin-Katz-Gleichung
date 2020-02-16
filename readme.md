@@ -26,7 +26,7 @@ Make sure that you have R and the following R packages installed on your machine
 
 Once you have installed and loaded all the libraries, you can start the App from the R console using:
 
-    runGitHub( "Goldman-Hodgkin-Katz", "DaSchmidtke")
+    runGitHub( "Goldman-Hodgkin-Katz-Gleichung", "DaSchmidtke")
     
 ## Using the App online
 
