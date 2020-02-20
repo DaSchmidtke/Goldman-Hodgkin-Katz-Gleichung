@@ -61,7 +61,7 @@ Deutsche Version:
 https://daschmidtke.shinyapps.io/goldman_app/
 
 Englische Version:
-ToDo
+https://daschmidtke.shinyapps.io/Goldman-Hodgkin-Katz-Equation/
 
 Der Zugriff auf den Shiny-Server ist dabei jedoch auf 25 Stunden pro Monat begrenzt. Nutzen Sie die Online-Version also bitte nur zum Ausprobieren der App. Wenn Sie die App länger benutzen möchten, verwenden Sie bitte eine lokale Installation.
 
