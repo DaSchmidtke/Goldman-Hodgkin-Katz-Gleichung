@@ -11,14 +11,14 @@ Die Gleichung lautet wie folgt:
 In der laufenden App kann man verschiedene Werte für die relativen Permeabilitäten sowie die extra- und intrazellulären Ionenkonzentrationen  von Kalium, Natrium und Chlor auswählen, um zu simulieren, wie diese das Membranpotential beeinflussen.
 
 
-![Sliders](/www/Slider.jpg)
+![Sliders](/www/Eingabe.jpg)
 
 Bitte beachten Sie, dass die Permeabilität von Kalium dabei nicht verändert werden kann, da die Permeabilität der anderen Ionenspezies (Natrium und Chlorid) relativ zu der von Kalium angegeben wird. P(K) beträgt daher stets 1.
 
 ### Ausgabe
 Die Ausgabe der App erfolgt zum Einen graphisch, in Form eines Oszillograms, welches das Membranpotential bei gegebenen einstellungen in mV anzeigt, zum Anderen über eine Textausgabe. Die Textausgabe beinhaltet sowohl das berechnete Membranpotential als auch die Nernstpotentiale der einzelnen Ionenspezies bei gegebenem Konzentrationsgradienten zwischen intra- und extrazellulärem Medium.
 
-![Output](/www/Output.jpg)
+![Output](/www/Ausgabe.jpg)
 
 Zu guter Letzt erlaubt die App die Auswahl der folgenden Voreinstellungen:
 
