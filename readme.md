@@ -8,7 +8,7 @@ Die Gleichung lautet wie folgt:
 ![Equation](/www/Gleichung.jpg)
 
 ### Interaktive Benutzeroberfläche
-In der laufenden App kann man verschiedene Werte für die relativen Permeabilitäten sowie die extra- und intrazellulären Ionenkonzentrationen  von Kalium, Natrium und Chlor auswählen, um zu simulieren, wie diese das Membranpotential beeinflussen.
+In der laufenden App kann man verschiedene Werte für die relativen Permeabilitäten sowie die extra- und intrazellulären Ionenkonzentrationen von Kalium, Natrium und Chlor auswählen, um zu erkunden, wie diese das Membranpotential beeinflussen.
 
 
 ![Sliders](/www/Eingabe.jpg)
@@ -16,7 +16,7 @@ In der laufenden App kann man verschiedene Werte für die relativen Permeabilit�
 Bitte beachten Sie, dass die Permeabilität von Kalium dabei nicht verändert werden kann, da die Permeabilität der anderen Ionenspezies (Natrium und Chlorid) relativ zu der von Kalium angegeben wird. P(K) beträgt daher stets 1.
 
 ### Ausgabe
-Die Ausgabe der App erfolgt zum Einen graphisch, in Form eines Oszillograms, welches das Membranpotential bei gegebenen einstellungen in mV anzeigt, zum Anderen über eine Textausgabe. Die Textausgabe beinhaltet sowohl das berechnete Membranpotential als auch die Nernstpotentiale der einzelnen Ionenspezies bei gegebenem Konzentrationsgradienten zwischen intra- und extrazellulärem Medium.
+Die Ausgabe der App erfolgt zum Einen graphisch, in Form eines Oszillograms, welches das Membranpotential bei gegebenen Einstellungen in mV anzeigt, zum Anderen über eine Textausgabe. Die Textausgabe beinhaltet sowohl das berechnete Membranpotential als auch die Nernstpotentiale der einzelnen Ionenspezies bei gegebenem Konzentrationsgradienten zwischen intra- und extrazellulärem Medium.
 
 ![Output](/www/Ausgabe.jpg)
 
@@ -29,7 +29,7 @@ Maximales Membranpotential des Säugetier-Neurons während des Aktionspotentials
 
 ## Lokale Installation der App
 
-Gehen Sie vor der Installation sicher, dass sie R und die folgenden R-Pakete auf Ihrem Rechner installiert und ind er laufenden R-Session geladen haben:
+Gehen Sie vor der Installation sicher, dass sie R und die folgenden R-Pakete auf Ihrem Rechner installiert und in der laufenden R-Session geladen haben:
 
 **shiny**, **shinyWidgets**, **shinyjs**, **ggplot2**, **jpeg**
 
