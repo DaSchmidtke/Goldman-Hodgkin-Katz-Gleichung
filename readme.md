@@ -5,7 +5,7 @@ Diese Shiny-App ist eine interaktive Version der Goldman-Hodkin-Katz-Gleichung z
 Die Gleichung lautet wie folgt:
 
 
-![Equation](/www/Equation.jpg)
+![Equation](/www/Gleichung.jpg)
 
 ### Interaktive Benutzeroberfläche
 In der laufenden App kann man verschiedene Werte für die relativen Permeabilitäten sowie die extra- und intrazellulären Ionenkonzentrationen  von Kalium, Natrium und Chlor auswählen, um zu simulieren, wie diese das Membranpotential beeinflussen.
