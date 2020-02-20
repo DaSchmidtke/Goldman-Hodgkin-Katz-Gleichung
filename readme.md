@@ -1,6 +1,6 @@
 ## Goldman-Hodgkin-Katz-Gleichung
 
-Diese Shiny-App ist eine interaktive Version der Goldman-Hodkin-Katz/Gleichung zur Berechnung des Membranpotentials einer Zelle in Abhängigkeit der relativen Permeabilitäten sowie der inneren and äußeren Konzentrationen verschiedener Ionenspezies (Kalium, Natrium und Chlorid).
+Diese Shiny-App ist eine interaktive Version der Goldman-Hodkin-Katz-Gleichung zur Berechnung des Membranpotentials einer Zelle in Abhängigkeit der relativen Permeabilitäten sowie der inneren and äußeren Konzentrationen verschiedener Ionenspezies (Kalium, Natrium und Chlorid).
 
 Die Gleichung lautet wie folgt:
 
@@ -13,59 +13,58 @@ In der laufenden App kann man verschiedene Werte für die relativen Permeabilit�
 
 ![Sliders](/www/Slider.jpg)
 
-Please note that the permeability of potassium cannot be changed, as the permeabilities for sodium and chloride ions are specified relative to that for potassium (P(K) = 1).
+Bitte beachten Sie, dass die Permeabilität von Kalium dabei nicht verändert werden kann, da die Permeabilität der anderen Ionenspezies (Natrium und Chlorid) relativ zu der von Kalium angegeben wird. P(K) beträgt daher stets 1.
 
-### Output
-The output panel of the App provides both, graphical output in form of an oscillogram, showing the current membrane potential in mV, and text output of the calculated membrane potential as well as the Nernst potentials for each ion species at the chosen concentrations.
+### Ausgabe
+Die Ausgabe der App erfolgt zum Einen graphisch, in Form eines Oszillograms, welches das Membranpotential bei gegebenen einstellungen in mV anzeigt, zum Anderen über eine Textausgabe. Die Textausgabe beinhaltet sowohl das berechnete Membranpotential als auch die Nernstpotentiale der einzelnen Ionenspezies bei gegebenem Konzentrationsgradienten zwischen intra- und extrazellulärem Medium.
 
 ![Output](/www/Output.jpg)
 
-Finally, the App allows you to choose between the following presets:
+Zu guter Letzt erlaubt die App die Auswahl der folgenden Voreinstellungen:
 
-Resting membrane potential of a cephalopod neuron\
-Peak membrane potential of a cephalopod neuron during spiking\
-Resting membrane potential of a mammalian neuron\
-Peak membrane potential of a mammalian neuron during spiking
+Ruhepotential beim Cephalopoden-Neuron\
+Maximales Membranpotential des Cephalopoden-Neurons während des Aktionspotentials\
+Ruhepotential beim Säugetier-Neuron\
+Maximales Membranpotential des Säugetier-Neurons während des Aktionspotentials
 
+## Lokale Installation der App
 
-## Local installation
-
-Make sure that you have R and the following R packages installed on your machine and loaded in your R session:
+Gehen Sie vor der Installation sicher, dass sie R und die folgenden R-Pakete auf Ihrem Rechner installiert und ind er laufenden R-Session geladen haben:
 
 **shiny**, **shinyWidgets**, **shinyjs**, **ggplot2**, **jpeg**
 
-    # Install packages from the R console via:
+    # Installation der Pakete aus der R-Eingabeaufforderung (Konsole) heraus:
     install.packages("shiny")
     install.packages("shinyWidgets")
     install.packages("shinyjs")
     install.packages("ggplot2")
     install.packages("jpeg")
     
-    # Load packages from the R console via:
+    # Laden der Pakete aus der R-Eingabeaufforderung (Konsole) heraus:
     library(shiny)
     library(shinyWidgets)
     library(shinyjs)
     library(ggplot2)
     library(jpeg)
     
-## Using the App locally
+## Lokale Benutzung der App
 
-Once you have installed and loaded all the packages, you can start the App from the R console using:
+Sobald die oben gelisteten R-Packete installiert und geladen sind, kann die App aus der Eingabeaufforderung (Konsole) heraus mit folgender Zeile gestartet werden:
 
-    runGitHub( "Goldman-Hodgkin-Katz-Equation", "DaSchmidtke")
+    runGitHub( "Goldman-Hodgkin-Katz-Gleichung", "DaSchmidtke")
     
-## Using the App online
+## Benutzung der Online-Version der App
 
-An online version of the App can be found here:
+Eine Online-Version der App ist unter folgendem Link bereitgestellt:
 
-German version:
+Deutsche Version:
 https://daschmidtke.shinyapps.io/goldman_app/
 
-English version:
+Englische Version:
 ToDo
 
-Access to the shiny server, however, is limited to 25 hours per month, so these links are for testing purposes only. If you want to use the App for longer durations, please use a local installation.
+Der Zugriff auf den Shiny-Server ist dabei jedoch auf 25 Stunden pro Monat begrenzt. Nutzen Sie die Online-Version also bitte nur zum Ausprobieren der App. Wenn Sie die App länger benutzen möchten, verwenden Sie bitte eine lokale Installation.
 
-## Author
+## Autor
 
 **Daniel Schmidtke**
