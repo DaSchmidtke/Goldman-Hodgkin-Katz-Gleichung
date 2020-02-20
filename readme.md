@@ -58,7 +58,7 @@ Sobald die oben gelisteten R-Packete installiert und geladen sind, kann die App 
 Eine Online-Version der App ist unter folgendem Link bereitgestellt:
 
 Deutsche Version:
-https://daschmidtke.shinyapps.io/goldman_app/
+https://daschmidtke.shinyapps.io/Goldman-Hodgkin-Katz-Gleichung/
 
 Englische Version:
 https://daschmidtke.shinyapps.io/Goldman-Hodgkin-Katz-Equation/
