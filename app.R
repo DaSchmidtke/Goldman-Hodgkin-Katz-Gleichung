@@ -147,9 +147,9 @@ server <- function(input, output, session) {
       shinyjs::disable("IntraCl")
     }
     else if(val==3){
-      updateSliderInput(session, "PNa", value = 12)
+      updateSliderInput(session, "PNa", value = 15)
       updateSliderInput(session, "PK", value = 1)
-      updateSliderInput(session, "PCl", value = 0.45)
+      updateSliderInput(session, "PCl", value = 0.1)
       updateSliderInput(session, "ExtraNa", value = 440)
       updateSliderInput(session, "ExtraK", value = 20)
       updateSliderInput(session, "ExtraCl", value = 560)
@@ -185,9 +185,9 @@ server <- function(input, output, session) {
       shinyjs::disable("IntraCl")
     }
     else if(val==5){
-      updateSliderInput(session, "PNa", value = 15)
+      updateSliderInput(session, "PNa", value = 12)
       updateSliderInput(session, "PK", value = 1)
-      updateSliderInput(session, "PCl", value = 0.1)
+      updateSliderInput(session, "PCl", value = 0.45)
       updateSliderInput(session, "ExtraNa", value = 150)
       updateSliderInput(session, "ExtraK", value = 5)
       updateSliderInput(session, "ExtraCl", value = 120)
