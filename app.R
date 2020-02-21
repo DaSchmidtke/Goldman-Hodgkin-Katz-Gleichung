@@ -91,9 +91,9 @@ ui <- fluidPage(
          uiOutput(outputId = "Extras"),
          h4(" "),
          h3("Konstanten"),
-         h5("R =  8.314 (kPa*L)/(mol*K)"),
+         h5("R =  8.314 J/(mol*K)"),
          h5(paste("T = 310.150 K \u2259 37\u00B0C")),
-         h5("F = 96485.332 A/mol")
+         h5("F = 96485.332 C/mol")
          ),
   
   column(4,
