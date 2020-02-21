@@ -18,7 +18,7 @@ Bitte beachten Sie, dass die Permeabilität von Kalium dabei nicht verändert we
 ### Ausgabe
 Die Ausgabe der App erfolgt zum Einen graphisch, in Form eines Oszillograms, welches das Membranpotential bei gegebenen Einstellungen in mV anzeigt, zum Anderen über eine Textausgabe. Die Textausgabe beinhaltet sowohl das berechnete Membranpotential als auch die Nernstpotentiale der einzelnen Ionenspezies bei gegebenem Konzentrationsgradienten zwischen intra- und extrazellulärem Medium.
 
-![Output](/www/Ausgabe.jpg)
+![Output](/www/Ausgabe2.jpg)
 
 Zu guter Letzt erlaubt die App die Auswahl der folgenden Voreinstellungen:
 
