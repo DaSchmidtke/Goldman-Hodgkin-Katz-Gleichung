@@ -13,7 +13,7 @@ Verhältnis (intra-/extrazellulär) von K+;	Na+;	Cl-: Cephalopoda =	20:1;	1:8,8;
 
 Der Anstieg der relativen Permeabilität von Natrium
 
-#### Was ist die Zellphysiologische Entsprechung dieser Wertveränderung?
+#### Was ist die zellphysiologische Entsprechung dieser Wertveränderung?
 
 Die Öffnung spannungsabhängiger Natriumionenkanäle in der Zellmembran
 
