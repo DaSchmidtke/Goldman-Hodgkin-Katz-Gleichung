@@ -4,7 +4,7 @@
 
 #### 2.	Trotz großer Unterschiede in den Innen- und Außenkonzentrationen der einzelnen Ionen zwischen dem Cephalopoden-Neuron und dem Säugetier-Neuron liegen die jeweiligen Ruhepotentiale dicht beieinander. Wie ist dies zu erklären?
 
-#### 3.	Vergleichen Sie die Voreinstellungen zwischen Ruhepotential und Spitze des Aktionspotentials für eine der Tiergruppen. Die Änderung im Wert welcher Variablen ist maßgeblich für die Vorzeichenumkehr des Membranpotentials während des Aktionspotentials verantwortlich? Was ist die Zellphysiologische Entsprechung dieser Wertveränderung?
+#### 3.	Vergleichen Sie die Voreinstellungen zwischen Ruhepotential und Spitze des Aktionspotentials für eine der Tiergruppen. Die Änderung im Wert welcher Variablen ist maßgeblich für die Vorzeichenumkehr des Membranpotentials während des Aktionspotentials verantwortlich? Was ist die yellphysiologische Entsprechung dieser Wertveränderung?
 
 #### 4.	Im konstanten Teil der Gleichung taucht neben der universellen Gaskonstante R und der Faraday-Konstante F die absolute Temperatur auf. Für unser Modell gehen wir davon aus, dass die Temperatur der Zelle ebenfalls konstant bei etwa 37°C liegt. Cephalopoden sind jedoch wechselwarme Tiere. Um welchen Faktor würde ein Abfall der Körpertemperatur von 37°C auf 27°C das Membranpotential verändern? Wie kommt es, dass die resultierende Veränderung des Membranpotentials im Vergleich zur Temperaturveränderung in Grad Celsius (Faktor 0.73) verhältnismäßig gering ist?
 
