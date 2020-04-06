@@ -33,6 +33,6 @@ Das Mebranpotential entspräche dann dem Nernstpotential der Kaliumionen.
 
 Weil die vergleichsweise hohe spezifische Permeabilität für Kaliumionen, welche durch spannungsunabhängige Kaliumkanäle zustande kommt, eine sehr große Rolle bei der Ausbildung des Ruhepotentials spielt. Das Ruhepotential nähert sich entsprechend dem Nernstpotential von Kalium an, welches unter den gegebenen Bedingungen im Säugetier-Beispiel bei -89.05 mV liegt. Das Ruhepotential erreicht dieses jedoch nicht, sondern liegt etwa 20 mV über dem Nernstpotential von Kalium, weil die spezifischen Permeabilitäten für Natrium- und Chlorid-Ionen zwar sehr niedrig, aber dennoch nicht gleich null sind. Diese Ionen haben folglich ebenfalls einen Einfluss auf das Ruhepotential, wenn auch einen deutlich geringeren als die Kaliumionen.
 
-#### In welcher Stufe des Aktionspotentials fällt das Membranpotential eines Neurons unter das Ruhepotential und warum?
+#### In welcher Phase des Aktionspotentials fällt das Membranpotential eines Neurons unter das Ruhepotential und warum?
 
 Beim Undershoot des Aktionspotentials, weil hier zusätzlich zu den spannungsunabhängigen Kaliumkanälen spannungsabhängige Kaliumkanäle geöffnet sind, welche die spezifische Permeabilität für Kaliumionen über den Wert des Ruhepotentials hinaus erhöhen.
