@@ -24,7 +24,7 @@ ui <- fluidPage(
     
     
     column(4,
-           h4("Relative Permeabilitaet"),
+           h4("Relative Permeabilit\u00E4t"),
   
   sliderInput(inputId = "PNa",
                label = "Natrium-Ionen",
