@@ -59,7 +59,7 @@ ui <- fluidPage(
     
   
     column(4,
-           h4("Au\U+00DFenkonzentration [mmol/l]"),
+           h4("Au\U00DFenkonzentration [mmol/l]"),
   
   sliderInput(inputId = "ExtraNa",
                label = "Natrium-Ionen",
@@ -250,7 +250,7 @@ server <- function(input, output, session) {
   })
   
   output$Extras <- renderUI({
-    HTML(paste("Au\U+00DFenkonzentrationen: ", paste("K: ", input$ExtraK, " mmol/l; Na: ", input$ExtraNa, " mmol/l; Cl: ", input$ExtraCl, " mmol/l"), sep="<br/>"))
+    HTML(paste("Au\U00DFenkonzentrationen: ", paste("K: ", input$ExtraK, " mmol/l; Na: ", input$ExtraNa, " mmol/l; Cl: ", input$ExtraCl, " mmol/l"), sep="<br/>"))
   })
   
   output$Intras <- renderUI({
