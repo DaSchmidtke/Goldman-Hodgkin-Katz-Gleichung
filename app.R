@@ -59,7 +59,7 @@ ui <- fluidPage(
     
   
     column(4,
-           h4("Aussenkonzentration [mmol/l]"),
+           h4("Au\U+00DFenkonzentration [mmol/l]"),
   
   sliderInput(inputId = "ExtraNa",
                label = "Natrium-Ionen",
@@ -246,11 +246,11 @@ server <- function(input, output, session) {
   })
   
   output$Perms <- renderUI({
-    HTML(paste("Relative Permeabilitaeten: ", paste("K: ", input$PK, "; Na: ", input$PNa, "; Cl: ", input$PCl, sep = ""), sep="<br/>"))
+    HTML(paste("Relative Permeabilit\u00E4ten: ", paste("K: ", input$PK, "; Na: ", input$PNa, "; Cl: ", input$PCl, sep = ""), sep="<br/>"))
   })
   
   output$Extras <- renderUI({
-    HTML(paste("Aussenkonzentrationen: ", paste("K: ", input$ExtraK, " mmol/l; Na: ", input$ExtraNa, " mmol/l; Cl: ", input$ExtraCl, " mmol/l"), sep="<br/>"))
+    HTML(paste("Au\U+00DFenkonzentrationen: ", paste("K: ", input$ExtraK, " mmol/l; Na: ", input$ExtraNa, " mmol/l; Cl: ", input$ExtraCl, " mmol/l"), sep="<br/>"))
   })
   
   output$Intras <- renderUI({
